@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #e2aeae;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+.header {
+  background-color: #fff;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 20% 60% 17%;
+  gap: 3%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  color: rgb(204, 84, 84);
+  font-weight: bold;
+}
+.login button {
+  background-color: red;
+  border-radius: 30px;
+  width: 50%;
+}
+.login a {
+  color: white;
+  font-weight: bold;
+}
+.banner-text {
+  margin-top: 80px;
+  padding: 1%;
+}
+.text-3,
+.text-4,
+.text-5,
+.text-6 {
+  font-weight: bold;
+}
+.text-2 {
+  color: rgb(242, 60, 60);
+  font-weight: bold;
+  padding: 15px 0 25px 0;
+  font-size: 1.2rem;
+}
+.text-3 {
+  padding-bottom: 30px;
+}
+.text-4 a,
+.text-5 a {
+  color: aqua;
+}
+.text-6 {
+  font-size: 0.8rem;
+  padding-top: 30px;
+}
+.banner-search {
+  margin-top: 10px;
+}
+.banner-search {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  gap: 1.3333%;
+  padding: 1%;
+}
+.search,
+.search input,
+.search select,
+button {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+.search {
+  text-align: center;
+}
+.loc button {
+  background-color: rgb(203, 55, 55);
+  color: #fff;
+}
+.xoa button {
+  background-color: rgb(30, 28, 28);
+  color: #fff;
+}
+.banner-nick {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-template-rows: auto auto auto auto;
+  gap: 1.333%;
+  padding: 1%;
+  margin-top: 20px;
+}
+.nick:hover {
+  border: 1px solid rgb(232, 52, 52);
+}
+.infor-nick li,
+.gia-nick,
+.more {
+  padding: 5px 0;
+}
+.infor-nick a {
+  font-size: 0.9rem;
+  color: rgb(64, 64, 64);
+  font-weight: bold;
+}
+.gia-nick {
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-align: center;
+  border-top: 1px solid rgb(230, 230, 230);
+}
+.more {
+  font-weight: 600;
+  text-align: center;
+  background-color: rgb(232, 52, 52);
+}
+.more a {
+  color: #fff;
+}
+.next-web {
+  padding-top: 70px;
+  text-align: center;
+  display: flex;
+}
+.next-web button {
+  width: 20px;
+  height: 20px;
+}
+.button {
+  margin: 0 auto;
+}
+.next-1 {
+  background-color: rgb(173, 0, 0);
+}
+.footer {
+  height: 300px;
+  background-color: rgb(40, 40, 40);
+}
+.footer {
+  color: white;
+  display: grid;
+  grid-template-columns: 30% 40% 27%;
+  gap: 1.5%;
+  margin-top: 30px;
+  align-items: center;
+  font-weight: bold;
+}
+.logo-footer {
+  padding: 10px;
+}
+.logo-1 {
+  border: 2px solid white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+}
+.logo-2 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+}
+.ve-chung-toi div,
+.kho-game div {
+  padding: 10px 0;
+}
+.ve-chung-toi-1,
+.kho-game-1 {
+  font-size: 1.5rem;
+}
